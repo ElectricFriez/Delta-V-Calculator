@@ -2,4 +2,5 @@
 PLANS
 Make it GUI
 Try to increase accuracy
+Add more stages
 -------------------------------------------
