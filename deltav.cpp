@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <string>
 #include <fstream>
 #include <math.h>
@@ -14,11 +13,11 @@ int main() {
 	double deltaV;
 	const double grav = 9.81;
 	
-	cout << "Specific Impulse" << endl;
+	printf("%s\n", "Specific Impulse");
 	cin >> spi;
-	cout << "Total Mass" << endl;
+	printf("%s\n", "Total Mass");
 	cin >> totalMass;
-	cout << "Dry Mass" << endl;
+	printf("%s\n", "Dry Mass");
 	cin >> dryMass;
 	deltaV = (grav * spi) * log(totalMass / dryMass);
 	cout << "Delta V = " << deltaV << endl;
